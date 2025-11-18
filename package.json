@@ -1,9 +1,9 @@
 {
-  "name": "react",
+  "name": "umb-frontend-react",
   "version": "1.0.0",
-  "description": "",
-  "keywords": [],
+  "description": "Frontend React para gestor de tareas",
   "main": "src/index.tsx",
+  "homepage": "https://Nicolas0pm.github.io/umb_web_taller_front",
   "dependencies": {
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
@@ -19,14 +19,16 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "browserslist": [
     ">0.2%",
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ],
-  "homepage": "https://Nicolas0pm.github.io/umb_web_taller_front"
+  ]
 }
+
 
