@@ -21,8 +21,12 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
-  "browserslist": [">0.2%", "not dead", "not ie <= 11", "not op_mini all"]
-  "homepage": "https://TU_USUARIO.github.io/umb-frontend-react"
-
-
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "homepage": "https://Nicolas0pm.github.io/umb_web_taller_front"
 }
+
